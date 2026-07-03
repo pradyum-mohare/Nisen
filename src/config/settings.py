@@ -24,3 +24,10 @@ DEFAULT_INTERVAL = "5m"
 
 # Default period
 DEFAULT_PERIOD = "60d"
+
+# Indicator Settings
+
+EMA_PERIODS = [9, 20, 50, 200]
+MACD_FAST = 12
+MACD_SLOW = 26
+MACD_SIGNAL = 9
