@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+
+# Environment Variables
+.env
+
+# Logs
+backend/logs/*.log
+
+# Database
+backend/database/*.db
+
+# Data
+backend/data/raw/*
+backend/data/live/*
+backend/data/processed/*
+
+# Models
+backend/models/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
